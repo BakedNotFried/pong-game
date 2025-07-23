@@ -4,7 +4,7 @@
 export const firebaseConfig = {
   apiKey: "AIzaSyAC3w3ythZunEFXh2yoEDI-GGwqHZSYBm4",
   authDomain: "pong-3d-71979.firebaseapp.com",
-  databaseURL: "https://pong-3d-71979-default-rtdb.firebaseio.com",
+  databaseURL: "https://pong-3d-71979-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "pong-3d-71979",
   storageBucket: "pong-3d-71979.firebasestorage.app",
   messagingSenderId: "126427768876",
