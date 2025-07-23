@@ -1,0 +1,23 @@
+{
+  "name": "pong-3d",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/three": "^0.178.1",
+    "terser": "^5.43.1",
+    "three": "^0.178.0",
+    "vite": "^7.0.5"
+  },
+  "dependencies": {
+    "firebase": "^12.0.0"
+  }
+}

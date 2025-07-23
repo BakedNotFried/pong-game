@@ -1,0 +1,23 @@
+{
+  "rules": {
+    "rooms": {
+      "$roomId": {
+        ".read": "auth != null",
+        ".write": "auth != null",
+        "players": {
+          "$playerId": {
+            ".write": "$playerId === auth.uid || data.exists() === false"
+          }
+        },
+        "gameState": {
+          ".write": "auth != null && auth.uid === data.parent().child('metadata').child('host').val()"
+        },
+        "inputs": {
+          "$playerId": {
+            ".write": "$playerId === auth.uid"
+          }
+        }
+      }
+    }
+  }
+}
